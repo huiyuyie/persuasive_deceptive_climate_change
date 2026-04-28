@@ -155,22 +155,31 @@
         </header>
 
         <main>
-            <h2>Proposition: [STATE PROPOSITION]</h2>
+            <h2>Proposition: China, with its larger population, contributes more to CO₂ emissions and bears greater responsibility for climate change.</h2>
 
             <section>
                 <h3>FOR the Proposition</h3>
 
                 <figure>
-                    <img src="IMAGE_FILENAME" alt="" />
-                    <figcaption>BRIEF CAPTION HERE.</figcaption>
+                    <img src="assets/for_proposition.png" alt="Total CO2 emissions and population comparison between China and the United States" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
+                    <figcaption>Total CO₂ emissions and population for China and the United States from 2009 to 2018. China shows consistently higher total emissions alongside a much larger population, supporting a national-scale interpretation of climate responsibility.</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
+                    <li>
+                        <strong>Score: -1.5.</strong>
+                        We chose to use total emissions instead of per-capita values. This makes China look more responsible right away, since it has higher overall emissions, even though this ignores how emissions are distributed across individuals.
+                    </li>
+                    <li>
+                        <strong>Score: -1.0.</strong>
+                        We placed population next to emissions to suggest that the difference in emissions is naturally explained by population size. While this feels intuitive, it subtly implies a causal relationship that the data itself doesn’t actually prove.
+                    </li>
+                    <li>
+                        <strong>Score: -0.5.</strong>
+                        We used overlapping bars, which makes China’s higher values visually dominate. This makes the gap feel more obvious at first glance, even if the exact comparison isn’t perfectly clear.
+                    </li>
                 </ul>
             </section>
 
@@ -178,23 +187,33 @@
                 <h3>AGAINST the Proposition</h3>
 
                 <figure>
-                    <img src="IMAGE_FILENAME" alt="" />
-                    <figcaption>BRIEF CAPTION HERE.</figcaption>
+                    <img src="assets/against_proposition.png" alt="Per capita CO2 emissions comparison between China and the United States" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
+                    <figcaption>Per-capita CO₂ emissions for China and the United States from 2009 to 2018. When emissions are normalized by population, the United States consistently emits more per person, challenging the claim that China bears greater responsibility.</figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
-                    <li>RATIONALE_1</li>
-                    <li>RATIONALE_2</li>
-                    <li>RATIONALE_3</li>
+                    <li>
+                        <strong>Score: 1.5.</strong>
+                        We normalized emissions by population (per-capita), which provides a more individual-level measure of environmental impact and offers a fairer comparison between countries of different sizes.
+                    </li>
+                    <li>
+                        <strong>Score: -1.5.</strong>
+                        We used a strong declarative title (“The United States emits more carbon”) to frame the viewer’s interpretation before examining the data, making the chart more persuasive.
+                    </li>
+                    <li>
+                        <strong>Score: -1.0.</strong>
+                        The overlapping bar design highlights the consistent gap where U.S. emissions exceed China’s, making the difference visually immediate while reducing attention to absolute scale differences.
+                    </li>
                 </ul>
             </section>
 
             <section>
                 <h2>Final Reflection</h2>
 
-                <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+                <p>For this project, we explored a number of datasets and tried out different directions before settling on our final proposition.</p>
+
             </section>
         </main>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c822b88e119346678db149ed7b7721c9","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
