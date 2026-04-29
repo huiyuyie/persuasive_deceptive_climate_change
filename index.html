@@ -155,30 +155,54 @@
         </header>
 
         <main>
-            <h2>Proposition: China, with its larger population, contributes more to CO₂ emissions and bears greater responsibility for climate change.</h2>
+            <h2>Proposition: Among the top developing and developed economies, China emits more carbon to catch up with the United States.</h2>
 
             <section>
                 <h3>FOR the Proposition</h3>
 
                 <figure>
-                    <img src="assets/for_proposition.png" alt="Total CO2 emissions and population comparison between China and the United States" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
-                    <figcaption>Total CO₂ emissions and population for China and the United States from 2009 to 2018. China shows consistently higher total emissions alongside a much larger population, supporting a national-scale interpretation of climate responsibility.</figcaption>
+                    <img src="assets/for_proposition.png" 
+                        alt="Share of global CO2 emissions comparison between China and the United States" 
+                        style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
+
+                    <figcaption>
+                        China and the United States’ shares of global CO₂ emissions (2010–2018).
+                    </figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
 
                 <ul>
                     <li>
-                        <strong>Score: -1.5.</strong>
-                        We chose to use total emissions instead of per-capita values. This makes China look more responsible right away, since it has higher overall emissions, even though this ignores how emissions are distributed across individuals.
+                        <strong>Y-Axis (2): Share of global CO₂ emissions (%)</strong><br>
+                        We began with total CO₂ emissions, since they reflect the overall scale of each country’s contribution. However, total values alone lack context, so we turned them into each country’s share of global emissions by dividing by the world total. This puts each country’s emissions in a global context and makes it easier to compare their relative contributions. It also fits with how global warming works at a global level, where total emissions matter overall. At the same time, this framing makes China appear to play a larger role, while placing less emphasis on per-capita responsibility.
                     </li>
+
                     <li>
-                        <strong>Score: -1.0.</strong>
-                        We placed population next to emissions to suggest that the difference in emissions is naturally explained by population size. While this feels intuitive, it subtly implies a causal relationship that the data itself doesn’t actually prove.
+                        <strong>X-Axis (1): Year (2010–2018)</strong><br>
+                        We included a time range to examine whether the pattern remains consistent over time. We focused on the recent decade, using data from 2010 to 2018 based on availability. Showing multiple years provides context within this time frame and helps demonstrate that the observed difference is not based on a single year.
                     </li>
+
                     <li>
-                        <strong>Score: -0.5.</strong>
-                        We used overlapping bars, which makes China’s higher values visually dominate. This makes the gap feel more obvious at first glance, even if the exact comparison isn’t perfectly clear.
+                        <strong>Mark (2): Grouped bar chart</strong><br>
+                        We used a grouped bar chart to compare the two countries side-by-side within each year. This layout allows viewers to quickly scan across time and directly compare values within the same context. Differences between countries become immediately visible without additional interpretation.
+                    </li>
+
+                    <li>
+                        <strong>Color (2): Red (China) and Blue (U.S.)</strong><br>
+                        We used red for China and blue for the United States, based on the most recognizable colors from their national flags. This makes the categories easy to distinguish without relying too much on the legend. The contrast also helps separate the two clearly, and we did not use color in a way that could mislead the viewer.
+                    </li>
+
+                    <li>
+                        <strong>Title (1): The Cost of Catching Up: China Drives More Warming</strong><br>
+                        We chose this title to frame the comparison between China and the United States through the idea of “catching up,” which implicitly introduces a contrast between a developing and a developed country. The word “cost” adds a negative framing, suggesting that higher emissions are a downside associated with this difference. However, this is based on an observed pattern in the data rather than a causal relationship, and the chart does not provide evidence to explain why this difference exists. This framing directs attention to the fact that China accounts for a larger share of global emissions than the United States.
+                        <br><br>
+                        This interpretation based on global share is reasonable because it reflects each country’s overall contribution to total emissions, which is directly related to the scale of impact on the global climate. However, emissions can also be interpreted in other valid ways, as different measurements emphasize different aspects of impact. Here, we focus on carbon emissions as one way of measuring contributions to global warming, which may lead the audience to overlook other important factors, even though carbon emissions are a well-known driver of global warming.
+                    </li>
+
+                    <li>
+                        <strong>Annotation (2): Definition of “global share”</strong><br>
+                        We included a definition of “global share” below the chart to explain how the metric was calculated. Providing this context makes the transformation more transparent. It also helps viewers understand how the percentages should be interpreted.
                     </li>
                 </ul>
             </section>
@@ -187,8 +211,13 @@
                 <h3>AGAINST the Proposition</h3>
 
                 <figure>
-                    <img src="assets/against_proposition.png" alt="Per capita CO2 emissions comparison between China and the United States" style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
-                    <figcaption>Per-capita CO₂ emissions for China and the United States from 2009 to 2018. When emissions are normalized by population, the United States consistently emits more per person, challenging the claim that China bears greater responsibility.</figcaption>
+                    <img src="assets/against_proposition.png" 
+                        alt="Per capita CO2 emissions comparison between China and the United States" 
+                        style="width: 100%; max-width: 900px; display: block; margin: 0 auto;"/>
+
+                    <figcaption>
+                        Per-capita CO₂ emissions for China and the United States (2010–2018).
+                    </figcaption>
                 </figure>
 
                 <p>Design Decisions and Rationale:</p>
